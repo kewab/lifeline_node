@@ -1,0 +1,2336 @@
+{
+  "name" : "lifeline",
+  "nodes": [
+    {
+      "id": "1",
+      "segmentName": "Day 1",
+      "textLines": [
+      "初元十七年，昆仑山“仙桃会”召开。",
+      "据说当年齐天大圣闹天宫时，曾将一棵蟠桃树踢落人间，恰好在昆仑山生根发芽。",
+      "经过几千年竟也繁衍成一片桃林。"
+      ],
+      "choices": [],
+      "isTerminalNode": true,
+      "delay_seconds": "68"
+    },
+    {
+      "id": "2",
+      "segmentName": "Day 1",
+      "textLines": [
+        "可惜昆仑山虽然是修仙圣地，但终归是人间，天地间蕴含的灵气有限，这蟠桃树所结果实蕴含的灵力只剩万一。",
+        "即便如此，对于修仙之人来说，这万分之一的仙力依然十分宝贵。",
+        "运用得到，可以少修行数十年。"
+      ],
+      "choices": [],
+      "isTerminalNode": true,
+      "delay_seconds": "92"
+    },
+    {
+      "id": "3",
+      "segmentName": "Day 1",
+      "textLines": [
+        "九月初九这一天，“仙桃会”如期举办，各路修仙道友应邀前往，场面空前。",
+        "于千是昆仑派的一个弟子，在山上他有一个好朋友叫文瑶，是蟠桃园的采桃仙女。",
+        "不过这个仙女只是个好听的称呼，和得道成仙没半点关系。"
+      ],
+      "choices": [
+  
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "97"
+    },
+     {
+      "id": "4",
+      "segmentName": "Day 1",
+      "textLines": [
+        "夜幕降临，于千将自己负责的几位修仙前辈送到指定的客房休息。",
+        "在回房的路上，文瑶不知从哪里跳了出来，调皮得蒙住了于千的眼睛。",
+        "“猜猜我是谁？”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "68"
+    },
+     {
+      "id": "5",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“还能有谁，只能是那个有五彩翅膀的小蚊子。”",
+        "于千笑着答道。",
+        "“讨厌，你才是蚊子呢！”文瑶松开手，捶了于千一拳。",
+        "接着从袖子中摸出一个桃子，递给于千，“快吃吧，给你哒。”"
+      ],
+      "choices": [],
+      "isTerminalNode": true,
+      "delay_seconds": "82"
+    },
+     {
+      "id": "6",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“这……你是从哪里弄来的？”于千认出了蟠桃，惊讶得问道。",
+        "“大仙女说这次我采摘有功，赏了我一个，快吃吧。对你练功有帮助的。”"
+      ],
+      "choices": [
+        {
+          "btnText": "吃下去",
+          "nextNodeId": "7"
+        },
+        {
+          "btnText": "留给文瑶",
+          "nextNodeId": "169"
+        }
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "1"
+    },
+     {
+      "id": "7",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千狼吐虎咽将蟠桃吃完。",
+        "文瑶高兴的拉着于千的手往山上跑去，“于大爷，快陪我去看月亮。”",
+        "两人刚跑两步，迎面遇见一位道长，正是昆仑长老之一，外号“天书”的陵越真人。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "80"
+    },
+    {
+      "id": "8",
+      "segmentName": "Day 1",
+      "textLines": [
+        "陵越真人看到两人，眉头微微一皱",
+        "说道：“我昆仑虽不是什么古板门派，但你们这样拉拉扯扯，似乎不太好看吧。”",
+        "文瑶忙松开手，低着头吐了吐舌头，“长老，我们下次不敢了。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "81"
+    },
+    {
+      "id": "9",
+      "segmentName": "Day 1",
+      "textLines": [
+        "陵越真人笑着说道：“好啦，快去爬山吧，月色可不等人。”",
+        "说罢笑着远去了。",
+        "于千看着真人的背影，说道：",
+        "“原来陵越真人是这样随和的一个人，以前还真没发现呀。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "75"
+    },
+    {
+      "id": "10",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“是呀，不过也分时候的，上次蟠桃会，前任大仙女曾经偷偷私藏了几个蟠桃。被真人知道，直接逐出昆仑山了！”",
+        "文瑶严肃的说道。",
+        "“啊！那你还敢拿给我吃？？？”",
+        "“今年不一样，很多修仙道友都没有来。有些人虽然来了，但一个桃都没有吃。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "110"
+    },
+    {
+      "id": "11",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“所以剩下了很多，如果不吃的话，就会坏的。”",
+        "“那为啥不拿给其他师兄弟吃呢？”",
+        "“大仙女说是因为掌门不愿意让师兄弟们知道，怕大家心中有波动。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "69"
+    },
+    {
+      "id": "12",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“波动？为什么会有波动？出了什么事？”",
+        "于千惊奇的问道。“因为……”文瑶犹豫了一下，说道：",
+        "“以后升仙不仅仅要渡劫，还需要审核资质了，负责审核的是天庭的论仙亭，据说那边负责的人跟咱们昆仑的掌门关系不太好。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "101"
+    },
+    {
+      "id": "13",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“而且，咱们昆仑山的蟠桃据说要被认定为假冒产品，被取缔。”",
+        "文瑶说着说着，面色凝重了起来。",
+        "于千连忙轻轻拍了拍他的肩头，说道：“没事的，相信掌门会解决这个问题的。我们还是赏月亮吧。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "89"
+    },     {
+      "id": "14",
+      "segmentName": "Day 1",
+      "textLines": [
+        "文瑶点了点头，抬头看着圆月，脸上多少有了些笑意。",
+        "突然，她大声惊叫道：“快看，天上有人！”",
+        "于千戳了她脑袋一下，“你又来，骗我看天上然后偷偷打我是不是。”",
+        "“不是的！你看！”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "84"
+    },
+    {
+      "id": "15",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千这才转头看夜空，只见一团云彩上站了黑压压一片人，正飞速的向昆仑山飞来。"
+      ],
+      "choices": [
+        {
+          "btnText": "赶快躲到石头后边",
+          "nextNodeId": "16"
+        },
+        {
+          "btnText": "马上去禀报掌门",
+          "nextNodeId": "170"
+        }
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "37"
+    },
+    {
+      "id": "16",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千和文瑶躲到一块巨石后边，于千紧张的说道：",
+        "“他们想干嘛？难道要对我们昆仑不利？”",
+        "话音未落，云彩已经到了昆仑派大殿的上方，掌门飞云道人从殿中踏云而上，与那些人对面而立。"
+      ],
+      "choices": [],
+      "isTerminalNode": true,
+      "delay_seconds": "84"
+    },
+    {
+      "id": "17",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千见状轻轻出了一口气",
+        "“还好，看来掌门已经有所察觉了。”",
+        "飞云道人向那云彩上的众人施礼说道：",
+        "“各位天将光临弊派，实在是蓬荜生辉。”",
+        "那云彩上一位看似领头的人答道：“废话少说，你可知罪？”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "94"
+    },
+    {
+      "id": "18",
+      "segmentName": "Day 1",
+      "textLines": [
+        "飞云道人不慌不忙的答道：",
+        "“知罪，大将军来此未能远迎，请将军治罪。”",
+        "“放屁，你就跟我躲猫猫吧。你知道我说得是你私办蟠桃宴，意欲对抗天廷的事！”",
+        "“大将军此言差矣，我蟠桃会已经举办了几百年，天庭一直知晓，为何突然变成私办？”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "111"
+    },
+    {
+      "id": "19",
+      "segmentName": "Day 1",
+      "textLines": [
+        "那大将军再不答话，手指飞云道人命令道：“来人，给我拿下。”",
+        "话音未落，四周突然围拢过来许多人，将一众天兵天将围在中间。",
+        "其中一人说道：“大将军别来无恙，我西湖地仙有一事不明，还请大将军指教。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "96"
+    },
+    {
+      "id": "20",
+      "segmentName": "Day 1",
+      "textLines": [
+        "行啦，你别跟我废话了，你不就是想跟我讲道理嘛。",
+        "我今天没空跟你废话，我就是来拿人的。",
+        "你西湖地仙本事是不小，但你仙人的名号是渡劫渡的，玉皇大帝说了，以后仙人要靠封的，你这种没名分的，都算是妖，人化的妖，也叫人妖。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "106"
+    },
+    {
+      "id": "21",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“你……”",
+        "西湖地仙指着大将军的鼻子，气得说不出话来。",
+        "不过玉皇还是法外开恩，准备给你们之中一些表现好的封个名号。",
+        "大将军故意把“表现好”三个字加重了语气。",
+        "西湖地仙手指举在空中，竟有些犹豫了起来。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "97"
+    },
+    {
+      "id": "22",
+      "segmentName": "Day 1",
+      "textLines": [
+        "此时",
+        "一个昆仑弟子跌跌撞撞的冲到大将军面前，两位天将护到大将军身前",
+        "喝道：“来者何人？”",
+        "那昆仑弟子慌张的跪倒在云上，由于过于紧张差点从云上栽下去，看上去很是滑稽。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "82"
+    },
+    {
+      "id": "23",
+      "segmentName": "Day 1",
+      "textLines": [
+        "我是昆仑派大弟子欧阳正通，我要检举，我的师傅此次蟠桃会就是要联合各路散仙反对天庭。",
+        "求大将军主持正义，把他们统统抓起来。"
+      ],
+      "choices": [
+        {
+          "btnText": "跳出去痛骂这个畜生",
+          "nextNodeId": "24"
+        },
+        {
+          "btnText": "按兵不动再看看情况",
+          "nextNodeId": "171"
+        }
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "61"
+    },
+    {
+      "id": "24",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千踏地而起，驾着还不太能熟练掌握的云彩冲上前去",
+        "指着大师兄怒道：",
+        "“掌门待你恩重如山，你却为了自己的荣华富贵如此诋毁掌门，你还是人吗？”",
+        "大弟子邪邪一笑，“对，我不是人，因为……我很快就要成仙了，而你，哈哈哈哈，做一辈子凡夫俗子吧。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "116"
+    },
+    {
+      "id": "25",
+      "segmentName": "Day 1",
+      "textLines": [
+        "这大弟子是陵越真人的徒弟，此时，陵越真人已经气得面如赤铜。",
+        "他起手一道剑气向大弟子射出，“你个不孝逆徒，为师看错了你，今天我亲手来清理门户。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "70"
+    },
+    {
+      "id": "26",
+      "segmentName": "Day 1",
+      "textLines": [
+        "大将军挥手也射出一道剑气，在空中与陵越真人的剑气相撞，两道剑气都化为青烟。",
+        "“放肆，谁给你的胆子，敢未经我同意就在我面前杀人？”",
+        "“呵呵，我昆仑派清理门户，何时需要你天庭批准了？”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "88"
+    },
+    {
+      "id": "27",
+      "segmentName": "Day 1",
+      "textLines": [
+        "大将军袖子一展，两团彩云架起欧阳正通和于千被收到了袖子之中，动作之快旁人全都没反映过来。",
+        "大将军微微一笑，说道：“就从现在开始。昆仑派的一言一行，都要天庭批准。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "80"
+    },
+    {
+      "id": "28",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“放屁！”",
+        "陵越真人踏云而上，一个天将迎了上来，两人打在一处。",
+        "掌门飞云道人犹豫片刻，大声命令道：“开启昆仑五行阵！各位道友请退在一旁，免受伤害。",
+        "”听到掌门喊声，袖子中的欧阳正通连忙喊道，“大将军，我知道破阵的方法！”"
+      ],
+      "choices": [
+        {
+          "btnText": "弄死他",
+          "nextNodeId": "29"
+        },
+        {
+          "btnText": "捂住他嘴",
+          "nextNodeId": "172"
+        }
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "107"
+    },
+    {
+      "id": "29",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千内心激烈斗争了一下，毕竟是同门师兄弟，但如今昆仑有难，千万不可妇人之仁。",
+        "心念至此，于千突然跃起，两指直插欧阳正通的眼睛。因为于千学艺尚浅，他怕使用仙术容易被师兄防御，所以直接用肉身攻击之术。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "97"
+    },
+    {
+      "id": "30",
+      "segmentName": "Day 1",
+      "textLines": [
+        "欧阳正通其实对这个小师弟有些忌惮，所以偷偷给自己罩了一层法术屏障，防御他这小师弟的仙术是足够了。",
+        "然后他就放心的跟大将军述说阵法，不想被于千肉身攻击，双眼被戳，痛叫一声。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "84"
+    },
+    {
+      "id": "31",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千一不做二不休，趁着欧阳正通吃痛，护身法阵失效，对着欧阳正通的后脑就是一掌。",
+        "此掌于千集合了于千的全部功力，把欧阳正通打得脑浆迸裂，当场没了性命。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "73"
+    },
+    {
+      "id": "32",
+      "segmentName": "Day 1",
+      "textLines": [
+        "大将军察觉到此事，急忙一甩衣袖，嘟囔道：",
+        "“这是阿玛尼的顶级仙袍，不能水洗的。你们两个小兔崽子别给我弄脏了！”",
+        "由于大将军反应机敏，又加持了法力，所以欧阳正通的脑浆竟没有丝毫沾到衣袍之上。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "92"
+    },
+    {
+      "id": "33",
+      "segmentName": "Day 1",
+      "textLines": [
+        "而欧阳正通的尸体和于千也都被甩了出去，欧阳正通的尸体直接飞到了山崖之下。",
+        "而云瑶拼劲全力，用手拉住了于千，又有两位师兄驾云上前帮忙，终于在于千落崖之前将他接住。",
+        "免于粉身碎骨。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "86"
+    },
+    {
+      "id": "34",
+      "segmentName": "Day 1",
+      "textLines": [
+        "另一边，昆仑众师徒摆出昆仑大阵，将一众天兵天将困住。",
+        "云飞道人说道：",
+        "“我昆仑无意与天庭为敌，如若天庭不希望我们再办蟠桃会，我们遵命便是，何苦苦苦相逼。如若大将军肯罢手，我们马上撤阵。”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "91"
+    },
+    {
+      "id": "35",
+      "segmentName": "Day 1",
+      "textLines": [
+        "大将军忽然哈哈大笑，声震寰宇。",
+        "过了一会，大将军勉强忍住笑声，说道：“你以为你这个阵可以困住我？你真的这么认为吗？你好可爱呦，我都有点舍不得杀你了！”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "74"
+    },
+    {
+      "id": "36",
+      "segmentName": "Day 1",
+      "textLines": [
+        "说完，大将军手中变出一个灵符，向飞云道人丢去。",
+        "那灵符眨眼功夫来到飞云道人面前，飞云道人起手一道火光，想要烧掉那灵符，不想它水火不侵，直接贴在飞云道人面门之上。",
+        "大将军喝道：“变！”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "89"
+    },
+    {
+      "id": "37",
+      "segmentName": "Day 1",
+      "textLines": [
+        "可怜的飞云道人变成了一只兔子。",
+        "大将军笑道：“改天送与嫦娥仙子，她一定喜欢。”之后，又大喝一声，“开！”",
+        "数千昆仑弟子只觉得胸口一闷，道行差的直接口吐鲜血，昆仑大阵也被破了。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "85"
+    },
+    {
+      "id": "38",
+      "segmentName": "Day 1",
+      "textLines": [
+        "大将军环视众人，问道：“还有不服的吗？”话音未落起手一道剑光，正要答话的陵越真人直接被穿胸击倒，生死不明。",
+        "其他几个愤愤不平的师叔和道友纂紧了拳头，却不敢答话。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "79"
+    },
+    {
+      "id": "39",
+      "segmentName": "Day 1",
+      "textLines": [
+        "“各位听好了！”大将军清了清嗓子",
+        "缓慢但大声的说道：凡人成仙，本来是天机巧合，亿万人中有一的机缘之事，但是你们人类却搞什么昆仑派、紫霄宗。稍微有点资质的人都能混到渡劫这一步。",
+        "要不是玉皇一再增加渡劫的难度，恐怕这世界就要仙满为患了！"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "117"
+    },
+    {
+      "id": "40",
+      "segmentName": "Day 1",
+      "textLines": [
+        "所以，玉帝颁旨，取缔你们这些非法的培训机构。",
+        "凡人就好好过凡人的生活，非要修什么仙嘛。",
+        "另外，你们的蟠桃也被认定为违禁药物，一旦发现服用，终身取消升仙的资格。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "79"
+    },
+    {
+      "id": "41",
+      "segmentName": "Day 1",
+      "textLines": [
+        "等一下，不是升仙，而是封仙",
+        "从今以后，仙格要玉帝册封，具体流程嘛，就是先渡劫，然后到相关部门进行考试，然后再面试",
+        "。面试通过成为实习仙人，实习一千年之后可以转正。"
+      ],
+      "choices": [
+        {
+          "btnText": "慷慨陈词",
+          "nextNodeId": "173"
+        },
+        {
+          "btnText": "沉默不语",
+          "nextNodeId": "42"
+        }
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "82"
+    },
+    {
+      "id": "42",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千怒视大将军，却自知实力差距太大，无法反击。",
+        "大将军环顾四周，然后心满意足的带领兵将回了天宫。",
+        "临走不忘把云飞道人变的兔子带走。",
+        "就在几乎看不见他们天空中的背影的时候，突然天降闪电，将昆仑派的扁牌劈成碎片。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "101"
+    },
+    {
+      "id": "43",
+      "segmentName": "Day 1",
+      "textLines": [
+        "众人围到陵越真人道士身旁，早已没了气息，大家正六神无主之时，天空又降下数百道炸雷，好似道友渡劫一般。”",
+        "众人躲避不及，有近半被夺取性命。天空中传来大将军的声音，“还不快散！活腻了吧！"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "90"
+    },
+    {
+      "id": "44",
+      "segmentName": "Day 1",
+      "textLines": [
+        "众人无奈散去，昆仑派从此成为历史。",
+        "而几乎在同一时期，紫霄宗等数十个修仙门派，尽数被毁。",
+        "众道友只好暂避锋芒，却不料天庭并不罢手，对一些已经升仙但不愿到天宫接受封仙的散仙发了通缉令。",
+        "神州大地一时间竟成了屠仙场。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "103"
+    },
+    {
+      "id": "45",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千和文瑶来到一处山林之中，开垦了一小片田地，暂时过起了农耕生活。",
+        "后来有一些师兄弟也来到附近开荒种地，竟然形成了一个小村落。",
+        "为了纪念陵越真人，村子起名为陵越村。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "80"
+    },
+    {
+      "id": "46",
+      "segmentName": "Day 1",
+      "textLines": [
+        "时光如梭，不觉已是三年时间。",
+        "这一日，于千正在耕田，突然一只螃蟹爬到身边，于千心中惊奇，这山林之中，怎么会有螃蟹，于是弯腰将它拾起。",
+        "仔细一看，竟似仙术变化所成，于千心中一紧，急忙装作无意的样子将它放在草帽中。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "103"
+    },
+    {
+      "id": "47",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千又耕作了一会，装作劳累的擦了擦汗，然后拿起草帽不仅不忙的回到家中。”",
+        "文瑶见他古怪，问他发生了什么事，于千给她看草帽中的螃蟹。",
+        "文瑶小声惊叫道：“这恐怕是个散仙！”于千点点头，说道：“应该是的，不过看起来好像被什么法术封印了。"
+      ],
+      "choices": [
+        {
+          "btnText": "解开封印",
+          "nextNodeId": "174"
+        },
+        {
+          "btnText": "藏好螃蟹",
+          "nextNodeId": "48"
+        }
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "113"
+    },
+    {
+      "id": "48",
+      "segmentName": "Day 1",
+      "textLines": [
+        "于千在家里四下看了一下，将锅台掀开，舀了一锅水。",
+        "把螃蟹放在锅里，然后在下边添起柴来。文瑶看着于千一脸不解，问道：“你，你这是要吃了它吗？”"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "69"
+    },
+    {
+      "id": "49",
+      "segmentName": "Day 1",
+      "textLines": [
+        "话音未落，门突然被踹开，一个天将领着几个天兵冲了进来，天将问于千道：“你有没有看到一个散仙？”于千连忙答道：“回将军大人，我没有看到。”那天将让天兵四下搜查。",
+        "自己直奔灶台而去。"
+      ],
+      "choices": [
+      ],
+      "isTerminalNode": true,
+      "delay_seconds": "88"
+    },
+    {
+        "delay_seconds": 96, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“今天这是要吃螃蟹吗？怎么只有一个？”“回将军大人，今年收成不好，实在是没有银子", 
+            "但我这媳妇嘴馋，所以……”天将伸手要去拿螃蟹，文瑶的眼泪立刻流了下来，“将军……”天将看着俊俏的文瑶，停了手"
+        ], 
+        "id": 50
+    },
+    {
+        "delay_seconds": 107, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“好好好，我不碰还不行，我只是想检查一下，又没说要抢你的吃", 
+            "”文瑶上前一步，轻轻拉起天将的衣袖，感激的说，“谢谢将军，我已经馋得不行了", 
+            "”那天将顺势在文瑶手上摸了一把，说道，“行啦，不打扰你们享用美食啦", 
+            "我们走"
+        ], 
+        "id": 51
+    },
+    {
+        "delay_seconds": 75, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "临出门时，天将略施法术，灶台下的柴火立刻熊熊燃烧", 
+            "“小美女，哥哥我帮你一把，这可是天火，烧起来味道更好", 
+            "不用谢我哦"
+        ], 
+        "id": 52
+    },
+    {
+        "delay_seconds": 54, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶和于千眼巴巴的看着天将走远，赶紧掀开锅盖，不顾滚烫的热水，把螃蟹从锅里捞了出来", 
+            "于千的手被烫起一个大泡"
+        ], 
+        "id": 53
+    },
+    {
+        "delay_seconds": 75, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶心疼的拉着于千的说吹了起来，于千笑了笑，说不要紧的，然后略施法术，被烫的手好了过来，两人含情脉脉的对视，文瑶踮起脚亲了于千一口，旁边传来了咳嗽声"
+        ], 
+        "id": 54
+    },
+    {
+        "delay_seconds": 89, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "一个胖乎乎的裸体中年油腻男傻笑着说，“我也不想打扰你们的好事，不过能不能先给我找件衣服", 
+            "”文瑶尖叫了一声，背过身去", 
+            "于千去找了一间自己的衣服给中年男", 
+            "结果中年男很费劲的挤进衣服"
+        ], 
+        "id": 55
+    },
+    {
+        "delay_seconds": 95, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "本来宽大的衣服在中年男身上有了紧身衣的效果", 
+            "中年男抱拳向两位说道，“感谢二位的救命之恩，我盘丝大仙定当回报"
+        ], 
+        "id": 56
+    },
+    {
+        "delay_seconds": 94, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“哈哈哈，是我是我", 
+            "至于不受这事，我是觉得孙悟空要知道了，一定会来找我比试，我这两下子，哪里是斗战神佛的对手，他一时兴起失手把我打死，我不就亏大了嘛", 
+            "”中年男边说边不客气的拿起桌上的碗筷"
+        ], 
+        "id": 57
+    },
+    {
+        "delay_seconds": 93, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶撅着小嘴说道：“盘丝大仙，你都这么大法力了，还需要吃人间的食物吗？”盘丝大仙不好意思的挠挠头，说：“实在太香了，忍不住嘛！”于千拉了拉文瑶，小声说：“别这么小气嘛，我们再做就好了"
+        ], 
+        "id": 58
+    },
+    {
+        "delay_seconds": 93, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“再做，说得轻巧，这几年收成不好，外边又是战乱不断，家里都快揭不开锅了！”“哦？不对吧，这两年光景挺好的呀，你看你们家米缸都是满的", 
+            "外边鸡鸡鸭鸭的一大片呢", 
+            "”中年男好奇的看着文瑶，问道"
+        ], 
+        "id": 59
+    },
+    {
+        "delay_seconds": 67, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶往米缸里一看，果然是满的，外边也传来了鸭子的叫声", 
+            "于千马上明白了是怎么回事，赶忙说，“大仙快收了神通吧，一会天兵天将就返回来了"
+        ], 
+        "id": 60
+    },
+    {
+        "delay_seconds": 99, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“让他们来嘛，我正好施展施展拳脚", 
+            "”“可是，你刚才不是还被追着到处跑吗？”“我被一个老家伙画了个符封印了", 
+            "法力施展不了", 
+            "好在这个老家伙用的是朱红画的符，刚才一受热，都融到水里，符的效果也就解除了"
+        ], 
+        "id": 61
+    },
+    {
+        "delay_seconds": 58, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "话音未落，那个天将带着几个天兵冲了回来", 
+            "还没开口，都变成了老母鸡", 
+            "“这位小娘子，能不能帮我煮锅鸡汤，我实在是饿呀"
+        ], 
+        "id": 62
+    },
+    {
+        "delay_seconds": 48, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "还是谨慎为妙",
+            "nextNodeId": "181"
+          },
+          {
+            "btnText": "怕什么，煮",
+            "nextNodeId": "64"
+          }
+        ], 
+        "textLines": [
+            "“这……这可是天兵天将，煮鸡汤的话，会不会……”文瑶看了一眼于千，有些犹豫"
+        ], 
+        "id": 63
+    },
+    {
+        "delay_seconds": 70, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "过了一个时辰，中年男终于吃上了鸡汤", 
+            "也许是被封印的时间太久，中年男一口气把一锅鸡汤全部吃完才恋恋不舍的停了下来，嘴里还意犹未尽的砸吧了几下"
+        ], 
+        "id": 64
+    },
+    {
+        "delay_seconds": 87, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "其他几个被变身的天兵天将看到这情景，想要逃跑，被盘古大仙全部定住"
+        ], 
+        "id": 65
+    },
+    {
+        "delay_seconds": 82, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶无语的看着盘古大仙，心说这是拿我当厨子用呀"
+        ], 
+        "id": 66
+    },
+    {
+        "delay_seconds": 78, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "于千稍一犹豫，已经被文瑶按倒在地，“快叫师傅！”然后欢天喜地的来到盘古大仙身边，拉着大仙的紧身衣撒娇道，“大仙，我还会做好多种菜呢，你要不要多品尝几样呀？”"
+        ], 
+        "id": 67
+    },
+    {
+        "delay_seconds": 74, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "大仙摇了摇头，“我要减肥的，这是被那老家伙封印了几百年，嘴馋了", 
+            "我其实还是挺有定力的", 
+            "这位傻小子，该你选武功了", 
+            "”“你最厉害的是啥？”文瑶赶忙问道"
+        ], 
+        "id": 68
+    },
+    {
+        "delay_seconds": 59, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "于千却伸手制止了文瑶，说道：“我是昆仑弟子，虽然昆仑已灭，但我还是不能修习别派武功，大仙的心意我领了，当我不能答应"
+        ], 
+        "id": 69
+    },
+    {
+        "delay_seconds": 121, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“呃……这样，嗯……你知道你们飞云道人的师父是谁吗？”“是开派祖师天邪道人", 
+            "”“那他师父是谁呢？”“我听师叔说过，好像叫什么洞天仙", 
+            "”“对，就是我，那会我还没想好我那个洞府叫啥名字，所以就是洞天仙，现在想好了，叫盘丝洞，所以就是盘丝大仙了"
+        ], 
+        "id": 70
+    },
+    {
+        "delay_seconds": 88, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“所以，昆仑派的武功都是从大仙这里学来的？”“说出来都丢人，我这徒弟脑袋瓜子不太好，我的本事他估计学了一成不到", 
+            "要不然怎么会那么容易就被人灭了门", 
+            "”说完盘古大仙无奈的摇了摇头"
+        ], 
+        "id": 71
+    },
+    {
+        "delay_seconds": 58, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“弟子愿学习仙术，重振昆仑", 
+            "”于千双膝跪地，行了拜师礼", 
+            "一想到自己老公有可能成为大英雄，文瑶乐滋滋的在一旁跳来跳去"
+        ], 
+        "id": 72
+    },
+    {
+        "delay_seconds": 87, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙带着两人回了盘丝洞，由于被封印，盘丝大仙已经几百年没有回盘丝洞了", 
+            "洞里却并没有积太多灰尘，盘丝大仙眉头一皱，大声问道：“是哪路神仙来我洞借宿，不如出来大家见上一面"
+        ], 
+        "id": 73
+    },
+    {
+        "delay_seconds": 82, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶紧张的环顾四周，不自觉的抱紧了怀里的箱子——装着变成了食材的天兵天将的那个箱子", 
+            "于千向前一步，护在文瑶身前"
+        ], 
+        "id": 74
+    },
+    {
+        "delay_seconds": 81, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“哎呦，是蜘蛛姐姐呀，您是看上我起的洞名了吗？”盘丝大仙那股“中年人”不修边幅无所谓的劲头立刻消失，不自觉的梳了下头发", 
+            "文瑶偷偷跟于千说，“怕是你师傅的老相好"
+        ], 
+        "id": 75
+    },
+    {
+        "delay_seconds": 75, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "一位美丽的年轻女子从阴影中走了出来，步伐优美而魅惑", 
+            "当于千看到她的长相时，不由得惊呆了"
+        ], 
+        "id": 76
+    },
+    {
+        "delay_seconds": 93, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“几百年不见，还是这么美", 
+            "”盘丝大仙上前几步，说道", 
+            "“哎呦，洞天哥啥时候这么会说话了，看来这几百年是有哪个狐狸精教导吧？”盘丝大仙脸一红，说：“哪有，我这几百年被那个老东西变成了螃蟹"
+        ], 
+        "id": 77
+    },
+    {
+        "delay_seconds": 106, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“哦，那就是蚌埠妹纸，或者高攀了哪个小龙女吧？”美女提到狐狸精，好像想起了什么，话里带着丝丝怨气", 
+            "盘丝大仙赶忙答道：“哎呀，蜘蛛姐姐呀，骚狐狸那事都过去上千年啦，咱就不提了，至于什么蚌埠，龙女啥的，哪有你好呀"
+        ], 
+        "id": 78
+    },
+    {
+        "delay_seconds": 79, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“但愿你长了记性了", 
+            "不过我可还没原谅你呢", 
+            "我现在日子过得可快活了，今天找个书生，明天寻个捕快，后天找个牛郎", 
+            "不知道多爽，我可不想再和你这个老东西有啥瓜葛啦"
+        ], 
+        "id": 79
+    },
+    {
+        "delay_seconds": 96, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“蜘蛛姐姐别嘴硬啦，你在这盘丝洞里，定是在等我", 
+            "”“想得美，我不过是懒得在找新洞府了而已", 
+            "不信你看，那蜘蛛精一招手，一排年轻男人依次走出，各个相貌非凡", 
+            "这次轮到于千把文瑶的眼睛遮了个严严实实"
+        ], 
+        "id": 80
+    },
+    {
+        "delay_seconds": 116, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙气得一跺脚，转身就走", 
+            "于千和文瑶赶紧跟了上来"
+        ], 
+        "id": 81
+    },
+    {
+        "delay_seconds": 102, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙突然停下脚步，说了一声不好，转身就往盘丝洞飞去，文瑶和于千俩人一脸懵逼，只好努力跟了过去", 
+            "当他俩赶到时，发现盘丝大仙正在半空中和一个天将模样的人斗法，地上是几十个……母鸡，估计又是被盘丝大仙变的"
+        ], 
+        "id": 82
+    },
+    {
+        "delay_seconds": 138, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "那蜘蛛姐姐此时也在这一群母鸡之中，似乎受了伤，靠在一块石头上，望着天上，嘴里还不停说着：“你个老不死的，说走就走，老娘也不要了", 
+            "哼！”盘丝大仙边打边说：“我怎么知道那些男人是你拿天兵天将变的！再说，你的法力有限，把他们弄死就好了", 
+            "像你这样把他们关起来，很容易招来更多追兵的"
+        ], 
+        "id": 83
+    },
+    {
+        "delay_seconds": 93, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“老娘不愿意，老娘喜欢看帅哥，你咋地！”“我没咋地，你倒差点被人杀了", 
+            "”“我愿意，哼，你赶快把我的帅哥都变回来，我不要母鸡！我是蜘蛛，我怕鸡！”“等我打死这个家伙的，给你变一百个潘安"
+        ], 
+        "id": 84
+    },
+    {
+        "delay_seconds": 67, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "上前救援",
+            "nextNodeId": "175"
+          },
+          {
+            "btnText": "提醒师父",
+            "nextNodeId": "86"
+          }
+        ], 
+        "textLines": [
+            "“两人正在拌嘴的时候，突然不知道从哪里又窜出来一个天将，冲到蜘蛛精旁边，看样子是想挟持她，由于跑得太快，一只鸡被踩到爪子，大叫了一声"
+        ], 
+        "id": 85
+    },
+    {
+        "delay_seconds": 85, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“师傅快救师娘！”于千大声喊道", 
+            "盘丝大仙回头一看，大呼不好，正要施法，只见蜘蛛姐姐突然发出一道紫色光芒，正中那天将的胸口，那天将呜呼一声倒在地上", 
+            "临死前一道金光射向天庭"
+        ], 
+        "id": 86
+    },
+    {
+        "delay_seconds": 87, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "与盘丝大仙打斗的那位天将说道：“盘丝大仙，我劝你乖乖归降，我手下已经在临死前自碎天将牌向天庭报信了，很快就会有大批援军赶到"
+        ], 
+        "id": 87
+    },
+    {
+        "delay_seconds": 69, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "这名天将话音未落，已经被一把仙剑的剑影刺穿", 
+            "吐出一口鲜血，从天上跌落到地上", 
+            "盘丝大仙微微一惊，四下张望，问道：“哪位帮忙？老夫十分感谢"
+        ], 
+        "id": 88
+    },
+    {
+        "delay_seconds": 123, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "一把宝剑在空中渐渐显形", 
+            "盘丝大仙哈哈大笑，“老贱人，你最近去哪里了？很久没有你的消息了！”原来这宝剑是当年女娲补天之后用剩余的金属炼成，经过不断吸取天地灵气而成仙", 
+            "本来它比玉帝的辈分还要长，不过它游荡惯了，不想做管理天庭的事，所以就在天地间游历"
+        ], 
+        "id": 89
+    },
+    {
+        "delay_seconds": 117, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "后来玉帝开始整治散仙，宝剑仙心中不满，出来跟玉帝怼了几句", 
+            "还说要把玉帝搞下台自己取而代之", 
+            "玉帝马上就心虚了，秘密下令不惜一切代价杀死宝剑仙，宝剑仙本来不把玉帝的这些人马看在眼里，结果被围殴了几次发现他们还有点本事，就找个地方躲起来了"
+        ], 
+        "id": 90
+    },
+    {
+        "delay_seconds": 89, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙说道：“你个老东西，我好心救你，你还埋汰我", 
+            "”盘丝大仙嘿嘿一笑，“恐怕你更担心的是你蜘蛛妹妹守寡吧"
+        ], 
+        "id": 91
+    },
+    {
+        "delay_seconds": 67, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙连忙来为蜘蛛姐姐疗伤，宝剑仙说道：“你要快一点哦，估计一会天庭的人就到了，刚才他们已经发了信号了", 
+            "”盘丝大仙点点头，加紧运功"
+        ], 
+        "id": 92
+    },
+    {
+        "delay_seconds": 74, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "于千好奇的问：“大宝剑前辈，为啥你不帮忙疗伤一下呢？”宝剑仙哈哈一笑，说：“小兄弟，你看我怎么疗伤？浑身上下都是刃，恐怕还没疗伤，先把对方刺死了"
+        ], 
+        "id": 93
+    },
+    {
+        "delay_seconds": 82, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "过了一会，盘丝大仙给蜘蛛姐姐疗伤完毕，几人驾云而去，来到宝剑仙藏身的洞府", 
+            "而上次围剿昆仑派的那个大将军率领一众天兵天将来到刚才战斗的地方，扑了个空，只好又返回天庭"
+        ], 
+        "id": 94
+    },
+    {
+        "delay_seconds": 94, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙盘腿坐在石头上，帮助还未完全恢复的蜘蛛姐姐运功"
+        ], 
+        "id": 95
+    },
+    {
+        "delay_seconds": 70, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙看了一眼宝剑仙，说：“那你晚上咋睡觉嘛！”宝剑仙嗖的一声，插在石壁上", 
+            "“随便找个地方一插，就睡了"
+        ], 
+        "id": 96
+    },
+    {
+        "delay_seconds": 87, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "待到蜘蛛姐姐今天的疗伤告一段落，盘丝大仙终于擦了擦汗，站起来伸了个懒腰"
+        ], 
+        "id": 97
+    },
+    {
+        "delay_seconds": 64, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "我来给你看个好东西，宝剑仙身形一抖，一个古色古香的镜子出现", 
+            "镜子上正播放着一个香艳的画面，几个天将赤身裸体得围着一个美艳的少妇"
+        ], 
+        "id": 98
+    },
+    {
+        "delay_seconds": 70, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶羞涩的捂住眼睛，喊道：“这是什么呀！”宝剑仙一脸不好意思的说：“这是一个上古宝物，能够捕捉到方圆几千里的仙气波动，并将现场的画面带过来"
+        ], 
+        "id": 99
+    },
+    {
+        "delay_seconds": 67, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "话音刚落，那美艳少妇突然变成一团黑雾，接着就是几个天将的惨叫声", 
+            "大约过了一炷香的功夫，几个天将已经看不到踪影，那团黑雾变回了美艳少妇"
+        ], 
+        "id": 100
+    },
+    {
+        "delay_seconds": 75, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "蜘蛛姐姐问道：“宝剑哥，你是不是也是这么找到我们的？”宝剑仙答道：“是的"
+        ], 
+        "id": 101
+    },
+    {
+        "delay_seconds": 53, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "蜘蛛姐姐的声音震得洞府都在颤动，洞顶上沉积了几亿年的灰尘被震落，把大家都弄成了灰人", 
+            "文瑶下意识的拉紧衣服"
+        ], 
+        "id": 102
+    },
+    {
+        "delay_seconds": 77, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙从灰尘中升了出来，央央答道：“妹纸，我是一个宝剑，非男非女"
+        ], 
+        "id": 103
+    },
+    {
+        "delay_seconds": 86, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“停！”宝剑仙大喝一声，暂时阻止了蜘蛛姐姐扇过来的第二个巴掌", 
+            "“咱们说正事，我之前机缘巧合得到这个宝物，我就想能够集合天下散仙，共同对抗天庭，让他们撤销着扯淡的封仙规定"
+        ], 
+        "id": 104
+    },
+    {
+        "delay_seconds": 87, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "不要去",
+            "nextNodeId": "106"
+          },
+          {
+            "btnText": "马上去",
+            "nextNodeId": "176"
+          }
+        ], 
+        "textLines": [
+            "众人思考了一下，觉得宝剑仙说得确实有道理，有了这个宝贝，很容易找到各路散仙，然后集合大家，跟天庭来斗上一斗"
+        ], 
+        "id": 105
+    },
+    {
+        "delay_seconds": 62, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“我觉得，要不我们在观察观察，我觉得这个女人有点邪", 
+            "”于千说道，众人商议了一番，觉得还是稳妥起见，在观察一下是否是同道中人"
+        ], 
+        "id": 106
+    },
+    {
+        "delay_seconds": 53, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "第二天，当文瑶醒来时，蜘蛛姐姐还在睡梦中，而宝剑仙、盘丝大仙和于千却早已经围坐在镜子前边，聚精会神的看着"
+        ], 
+        "id": 107
+    },
+    {
+        "delay_seconds": 74, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶好奇的来到旁边，只见镜子里那个美艳少妇正在一件件的试衣服，在穿穿脱脱中，她美丽的胴体一次又一次展现在镜子前的两个半男人面前，他们不停的咽着口水"
+        ], 
+        "id": 108
+    },
+    {
+        "delay_seconds": 77, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "文瑶生气的转身离开，于千感觉到异样，回头一看，赶忙追了出去", 
+            "盘丝大仙后怕的看了看还在熟睡的蜘蛛姐姐，悄悄爬回自己的草席上装睡", 
+            "宝剑仙依然津津有味的欣赏着"
+        ], 
+        "id": 109
+    },
+    {
+        "delay_seconds": 93, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "捂住她的嘴巴",
+            "nextNodeId": "111"
+          },
+          {
+            "btnText": "让她告状",
+            "nextNodeId": "178"
+          }
+        ], 
+        "textLines": [
+            "过了许久，于千终于把眼中还带着泪痕的文瑶劝了回来，俩人的动静把蜘蛛姐姐吵醒了", 
+            "她揉揉眼睛坐了起来，迷茫的看着于千和文瑶，问道：“你们在干嘛？”刚刚稳定下情绪的文瑶指着于千的鼻子就要诉苦"
+        ], 
+        "id": 110
+    },
+    {
+        "delay_seconds": 103, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "于千赶紧捂住文瑶的嘴巴，求饶道：“我以后再也不敢了，我发誓", 
+            "你要说了就世界大乱了！”文瑶最终点了点头，于千松开了手"
+        ], 
+        "id": 111
+    },
+    {
+        "delay_seconds": 89, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙睡眼朦胧的看了看蜘蛛姐姐，又看了看文瑶和于千，说：“我虽然算是他们的师祖，但小两口吵架这种事，师祖是不管的", 
+            "我刚睡醒，当然也不知道啦", 
+            "”蜘蛛姐姐哼了一声，又要去问宝剑仙"
+        ], 
+        "id": 112
+    },
+    {
+        "delay_seconds": 68, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙嗖的一下插在石壁上，说：“累啦累啦，我睡啦", 
+            "”蜘蛛姐姐翻了个白眼，也就没再说什么"
+        ], 
+        "id": 113
+    },
+    {
+        "delay_seconds": 96, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "大家赶紧来到镜子前边，只见镜子里那美艳少妇化作黑烟正将一个道士模样的人缠在中间，文瑶仔细看了看，说道：“好像，好像是当初昆仑派的天枢阁守护长老——鲁班道人！”于千仔细一看，说：“对，就是他"
+        ], 
+        "id": 114
+    },
+    {
+        "delay_seconds": 63, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙赶紧向镜子施加了一些仙法，镜子里就传出了声音", 
+            "原来这镜子还有传输声音的功能，只是时代过于久远有些不太好用，需要仙法加持"
+        ], 
+        "id": 115
+    },
+    {
+        "delay_seconds": 93, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“妖妇，我们说好一同修炼，共抗天庭，你为何要谋害于我！”“傻道士，跟天庭作对这么自不量力的事，老娘怎么会做？我专门负责为天庭抓你们这些人", 
+            "哈哈，你这仙法水平也算可以，估计天庭会有赏赐"
+        ], 
+        "id": 116
+    },
+    {
+        "delay_seconds": 85, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“妖妇，你竟然投靠天庭！”“什么叫投靠，这世界本来就是天庭掌管，你们这些作乱的小贼", 
+            "我可是顺民", 
+            "算上你我已经帮天庭抓了八十个逆贼了，再有一个，我就可以封仙了", 
+            "哈哈哈哈"
+        ], 
+        "id": 117
+    },
+    {
+        "delay_seconds": 92, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙瞬间飞了出去，盘丝大仙和蜘蛛姐姐随后，于千和文瑶也紧跟了过去", 
+            "当于千和文瑶赶到的时候，看到宝剑仙已经像钉子一样把那个美艳少妇钉在墙上，不知道是有意无意，钉入的位置正是柔软的胸部"
+        ], 
+        "id": 118
+    },
+    {
+        "delay_seconds": 114, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙和蜘蛛姐姐扶着鲁班道人，看上去还有一口气在，盘丝大仙一边运仙功为他调理体内气息，一边不时偷偷瞄一眼宝剑仙——钉着的东西", 
+            "蜘蛛姐姐察觉到盘丝大仙的眼神，生气的揪住他的耳朵，盘丝大仙连忙讨饶，文瑶看到这一幕，忍不住笑了出来"
+        ], 
+        "id": 119
+    },
+    {
+        "delay_seconds": 124, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "过了一会，鲁班道人缓过一口气来", 
+            "说道：“师祖，您怎么在这里？”盘丝大仙咳嗽了一声，摆出一副前辈的姿态，缓缓的说道：“师祖我感知到你的危险，特意带领我这帮小跟班们来救你", 
+            "”蜘蛛姐姐一个白眼丢给他，宝剑仙也呵呵了一下", 
+            "于千和文瑶则快步上前，参见了师叔"
+        ], 
+        "id": 120
+    },
+    {
+        "delay_seconds": 155, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "变化成这妇人接触天庭",
+            "nextNodeId": "122"
+          },
+          {
+            "btnText": "将妇人埋葬尽快离开此地",
+            "nextNodeId": "179"
+          }
+        ], 
+        "textLines": [
+            "鲁班道人将与这妖艳妇人的前因后果跟大家讲述了一遍，原来这妇人以对抗天庭的名义，召集了一群仙道中人，最开始经常会组织一些活动，大家也都积极联络道友，发展下线，结果近期突然遭到天庭打压，活动转入地下，但有几个道友被妇人单独约见后就不知去向，鲁班道人觉得奇怪，就想法设法找到美艳妇人问个究竟，然后就发生了刚才的一幕"
+        ], 
+        "id": 121
+    },
+    {
+        "delay_seconds": 81, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "于千盯着美艳少妇，若有所思"
+        ], 
+        "id": 122
+    },
+    {
+        "delay_seconds": 128, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“什么好主意？”大家都把注意力转移了过来", 
+            "于千整理了一下思路，慢慢说道：“我们现在想要找到大批仙友一起合作，似乎有个更快的方法", 
+            "”说着，于千把手指向美艳少妇，蜘蛛姐姐疑惑的问：“可是她已经差不多把她发展的那批仙友都祸祸完了呀？”“想一想和她接头的天庭狗"
+        ], 
+        "id": 123
+    },
+    {
+        "delay_seconds": 110, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“我明白啦！”盘丝大仙拍手道：“这个人肯定还接触了很多这妇人这样的角色，我们想办法拿住这只天庭狗，然后逼她说出那些和她联系的仙道叛徒，这些叛徒都在组织这种反抗天庭的组织", 
+            "我们先惩戒了这些叛徒，然后把这些仙友组织在一起"
+        ], 
+        "id": 124
+    },
+    {
+        "delay_seconds": 79, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "蜘蛛姐姐带头鼓起掌来，一脸崇拜的看着盘丝大仙，说道：“没想到你这个脑子还能想到这么棒的主意", 
+            "”一旁的文瑶听了心中不悦，小声嘀咕道：“明明是我家于千先想到的"
+        ], 
+        "id": 125
+    },
+    {
+        "delay_seconds": 96, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙沉默了半天，终于“哇！我明白了！”大家一起给了它一个白眼，宝剑仙很无辜的说道：“我是一把宝剑，没有长脑子的地方，能思考完全是靠的万物的灵性"
+        ], 
+        "id": 126
+    },
+    {
+        "delay_seconds": 165, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "众人无奈的热烈鼓掌，然后一致推举蜘蛛姐姐来变成这个美艳少妇与天庭接头", 
+            "只有盘丝大仙有些犹豫，他结结巴巴的说：“这个，那个，那个天庭狗不会对你动手动脚吧？”蜘蛛姐姐白了盘丝大仙一眼，“你个吃醋精，我有分寸的！”于是大家在美艳少妇身上研究了一番，找到了她与天庭狗接头的信物", 
+            "在搜索过程中，盘丝大仙的手有些不老实，被蜘蛛姐姐痛揍了一顿"
+        ], 
+        "id": 127
+    },
+    {
+        "delay_seconds": 123, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "天庭的接头人接到“美艳妇人”的信号，马上赶来，蜘蛛姐姐变成美艳妇人的样子等候天庭狗，其他人躲在附近用镜子观察这边的情况，随时准备出手救援"
+        ], 
+        "id": 128
+    },
+    {
+        "delay_seconds": 118, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“人家没事，就是想你了才喊你来的嘛", 
+            "”天庭狗微微一笑，“我三郎别的不敢说，讨女人的欢心那是非常容易滴，你这么想我，也是合情合理", 
+            "说吧，想和我做点什么"
+        ], 
+        "id": 129
+    },
+    {
+        "delay_seconds": 144, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“我想，我想，我想和你私奔！”蜘蛛姐姐答道", 
+            "三郎一愣，犹豫了一下，说道：“我的行踪天庭很容易查到，私奔恐怕很快就会被抓回来", 
+            "”“那天庭是怎么知道你们在哪里的呀？”三郎又犹豫了一下，似乎有些担心", 
+            "蜘蛛姐姐不高兴的撒娇道：“不愿意说就算了，你就没爱过我，就是利用我帮你抓人！”说完转身就要走"
+        ], 
+        "id": 130
+    },
+    {
+        "delay_seconds": 129, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "三郎忙拉住“妖艳妇人”，说道：“哎呀，我不是这个意思啦", 
+            "我是怕不小心被那些坏人听到", 
+            "对天庭不利", 
+            "”“哼，你就是不信任我", 
+            "别拉着我，让我走！”“我说，我说还不行嘛，我们级别比较高的天将体内都有一个定位仪器，如果我们死亡或者仪器被从体内取出", 
+            "就会马上发出警报"
+        ], 
+        "id": 131
+    },
+    {
+        "delay_seconds": 133, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“这？不是侵犯隐私权吗？”“给天庭打工，哪里还敢奢望什么隐私权？能不掉脑袋已经谢天谢地了"
+        ], 
+        "id": 132
+    },
+    {
+        "delay_seconds": 132, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“哼，你负责和我们这些人接头，那么多人，谁知道你有多少个小姑奶奶？”美艳少妇看他全无戒心，便向主题靠拢", 
+            "三郎跪地发誓，“如果我对……”美艳少妇捂住他的嘴说，“别说那些丧气话，我可舍不得失去你", 
+            "”三郎见话锋有变，忙嬉皮笑脸的凑上来说道，“小姑奶奶，你真是吓死我了"
+        ], 
+        "id": 133
+    },
+    {
+        "delay_seconds": 124, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“你先别高兴", 
+            "”蜘蛛姐姐又把他推开，“你带我去挨个见识见识这些人，我看看有没有长得好看的", 
+            "”三郎忙点头说道，“没问题没问题，都是些残花败柳，比你万分之一都不及"
+        ], 
+        "id": 134
+    },
+    {
+        "delay_seconds": 154, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+         {
+            "btnText": "偷偷挨个观察",
+            "nextNodeId": "136"
+          },
+          {
+            "btnText": "把他们聚在一起",
+            "nextNodeId": "180"
+          }
+        ], 
+        "textLines": [
+            "“怎么可能，怎么可能", 
+            "”三郎急忙解释道：“等你封了仙，你就可以拥有无限的寿命，而且永远保持年轻，我怎么会嫌弃你呢", 
+            "”“哼，就算不会变老，你也有一天会看腻我的", 
+            "”“不会的，我看一百万年也不会看腻，只会看不够", 
+            "”说完捧起蜘蛛姐姐的脸，就要吻过去"
+        ], 
+        "id": 135
+    },
+    {
+        "delay_seconds": 149, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“那么多我可看不过来，还是一个一个看吧", 
+            "”三郎点点头，说：“好呀，这附近不远就有一个，我带你去吧", 
+            "”三郎和蜘蛛姐姐驾云而去", 
+            "其他人远远的偷偷跟随，不多久到了一处洞府，三郎唤出一个白面书生，那书生见到三郎倒头就跪，说道：“特使驾到，有失远迎", 
+            "”三郎颇为得意的说道，“起来吧，今天我给你介绍一个同行"
+        ], 
+        "id": 136
+    },
+    {
+        "delay_seconds": 131, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "白面书生与蜘蛛姐姐相互施礼，然后就向一下个地方飞去", 
+            "宝剑仙偷偷用法术标记了地点，带领大家一起跟踪到下一个地方", 
+            "就这样大约见识了十几个男性之后，蜘蛛姐姐问道：“为什么都是男的？你是不是有什么隐瞒我的？”三郎急忙摇头说道：“恰好附近都是男性而已，再远点就是女的了"
+        ], 
+        "id": 137
+    },
+    {
+        "delay_seconds": 126, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "到了下一处地点，一个老婆婆迎接出来，这个老婆婆套路比较清奇", 
+            "他是通过大家尊老的心理特点来团结了一批修仙人士，准备一次性攒够人数全部收割", 
+            "老婆婆对三郎说：“还差四个人就够了", 
+            "特使不要着急", 
+            "”三郎很装逼的答道：“无需着急，我只是来看看你有什么需要帮助的"
+        ], 
+        "id": 138
+    },
+    {
+        "delay_seconds": 120, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "老婆婆摇了摇头，“特使大人您太客气了，我这里没什么需要帮忙的，只是这年头人心不古，尊重老人的人越来越少，所以进度有些慢，特使您不着急就好", 
+            "”三郎安慰了两句，带着蜘蛛姐姐向下一个地方飞去"
+        ], 
+        "id": 139
+    },
+    {
+        "delay_seconds": 103, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“才看了一个你也好意思说！继续！”蜘蛛姐姐娇滴滴的拍了三郎后背一把，三郎回头暧昧的冲蜘蛛姐姐一笑", 
+            "接着三郎又带着蜘蛛姐姐认识了几个女性，有的是小女孩，有的是尼姑，有的是凶凶的中年妇女", 
+            "对三郎也都是毕恭毕敬"
+        ], 
+        "id": 140
+    },
+    {
+        "delay_seconds": 115, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙说道：“我看他已经没有什么利用价值了，弄死他然后对这些人动手吧", 
+            "”宝剑仙反对道：“我们现在弄死他，就怕打草惊蛇，那些人会发现异常躲起来的"
+        ], 
+        "id": 141
+    },
+    {
+        "delay_seconds": 129, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "于千和文瑶互相看了看，也陷入了沉思", 
+            "这是一个类似先有鸡还是先有蛋的问题，似乎从哪里下手都很不稳妥", 
+            "“而且还有一个问题，我们怎么知道这个三郎已经供出了所有的下线？我怀疑他可能还有一批漂亮而且有私情的下线被隐藏起来了", 
+            "”盘丝大仙接着说道，他的眉头锁得异常的紧凑"
+        ], 
+        "id": 142
+    },
+    {
+        "delay_seconds": 107, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“我……我有一个办法，我们先帮蜘蛛姐姐弄齐人数升仙，然后想办法把三郎挤掉，成为新的特使", 
+            "”文瑶说道", 
+            "“不，这存在太多不确定性了", 
+            "你怎么知道升仙之后担任什么职位？你也不知道这个三郎到底在天庭是什么背景，有多大能量"
+        ], 
+        "id": 143
+    },
+    {
+        "delay_seconds": 151, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“那……我们就得想个办法先制住这个三郎，让他替我们做事", 
+            "比如在他身体里装一个我们能够控制的，随时可以置他于死地的东西", 
+            "”于千突然说道，对于一向愚笨的他来说，这真是一个好主意", 
+            "“我们有这样的宝物吗？”宝剑仙看了看盘丝大仙", 
+            "盘丝大仙双手一摊，“小说里挺多的，可我没有", 
+            "”宝剑仙央央的接着说道：“我也没有"
+        ], 
+        "id": 144
+    },
+    {
+        "delay_seconds": 143, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "鲁班道人在一旁怯怯的说：“师祖，天枢阁以前的记载里好像有这种东西，它是一个能够感知特定人意识的神奇小生灵，可以在特定人的授意下释放腹部的液汁", 
+            "尤其特别的是，它的腹部储汁囊有完美的防护功能，任何毒液都无法通过囊壁进入它的身体", 
+            "不过师祖教导我们要从善，所以这么狠的东西我们从来没有使用过"
+        ], 
+        "id": 145
+    },
+    {
+        "delay_seconds": 98, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙调侃盘丝大仙道：“原来你们这名门正派还有这种厉害玩意，哈哈哈哈，没想到呀没想到", 
+            "还不快点拿出来用一用？”鲁班道人吞吞吐吐的说：“这只是天枢阁里边的记载，并没有现成的实物，要去太行山里边抓"
+        ], 
+        "id": 146
+    },
+    {
+        "delay_seconds": 47, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "于千和文瑶",
+            "nextNodeId": "148"
+          },
+          {
+            "btnText": "鲁班道人",
+            "nextNodeId": "181"
+          },
+          {
+            "btnText": "盘丝大仙",
+            "nextNodeId": "181"
+          },
+          {
+            "btnText": "宝剑仙",
+            "nextNodeId": "181"
+          }
+        ], 
+        "textLines": [
+            "“事不宜迟，赶紧去吧！”盘丝大仙说道", 
+            "“天庭现在到处在抓人，要小心一点"
+        ], 
+        "id": 147
+    },
+    {
+        "delay_seconds": 130, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“于千文瑶你们两个去吧", 
+            "遇到问题也好有个照应", 
+            "”于千和文瑶接了任务，前往太行山寻找那动物和毒药，此处暂不描述", 
+            "只说宝剑仙和盘丝大仙等人跟踪这三郎和蜘蛛姐姐继续向下一个接头人靠拢", 
+            "突然，镜子发出诡异的声音，随着声音越来越大，镜子不停的颤抖，最后蓬的一声炸成粉碎"
+        ], 
+        "id": 148
+    },
+    {
+        "delay_seconds": 126, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "众人一惊，纷纷后退，只见镜子爆炸的地方，出现了一个老头，那老头伸了个懒腰，看了看众人，好奇的问道：“你们是谁？”盘丝大仙反问道：“那你是谁？”老头嘿嘿一笑，说：“我是说不得道人，之前被太上老君那家伙使用奸计将我困在一面镜子之中，现在不知为何又出来了"
+        ], 
+        "id": 149
+    },
+    {
+        "delay_seconds": 121, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“那……你跟玉帝的关系咋样？”宝剑仙暂时不知敌友，打算试探一下", 
+            "“玉帝？那老儿，要不是太上老君帮忙，我早把他打成肉酱了", 
+            "”盘丝大仙试探的问道：“难道，你是大闹天宫的孙悟空？”老头白了盘丝大仙一眼：“你看我哪个地方长得像猴子？我比它早八千年"
+        ], 
+        "id": 150
+    },
+    {
+        "delay_seconds": 162, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“那时候我法力还很强盛，虽然被镜子困住，但依然能够感知到外边的世界，我看那太上老君要把孙悟空炼成丹，我就偷偷把老君的一个药丸一起碰到了炉子里边", 
+            "那药丸有贯通阴阳之功，所以炉子中的热量被遍布到人间", 
+            "这样那孙悟空才没被烧死", 
+            "”鲁班道人若有所思的说道：“那最近世界气候变暖是不是这个原因", 
+            "”众人白了他一眼，鲁班道人识趣的闭上了嘴"
+        ], 
+        "id": 151
+    },
+    {
+        "delay_seconds": 102, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙把宝剑仙拉到一旁偷偷嘀咕了一会，然后跟老头说，“前辈，现在天庭无道，搞什么封仙制度，我们正在联合起来对抗天庭，您老人家是否愿意加入我们？”老头眼珠转了转，说道：“不帮不帮，帮你们又没有什么好处"
+        ], 
+        "id": 152
+    },
+    {
+        "delay_seconds": 140, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "鲁班道人赶紧拿出一个可爱的机关小狗，只见那小狗灵巧的在地上跑来跑去，还跑到老头脚下，蹭了老头几下", 
+            "老头颇感兴趣，捡起小狗仔细端详了半天，然后看了看宝剑仙，说道：“老家伙，看你也是个上古传下来的大神，咋还没有一个后辈有眼力见？我不过是找你们要点好玩的，你看看你", 
+            "就不明白我的意思"
+        ], 
+        "id": 153
+    },
+    {
+        "delay_seconds": 71, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "马上攻击",
+            "nextNodeId": "155"
+          },
+          {
+            "btnText": "静观其变",
+            "nextNodeId": "182"
+          }
+        ], 
+        "textLines": [
+            "正说话间，一团天光从天而降，剧烈的爆炸把众人逼退几步，待烟尘散去，只见一人站在当中"
+        ], 
+        "id": 154
+    },
+    {
+        "delay_seconds": 130, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "宝剑仙迅速向太上老君冲去，盘丝大仙也不含糊，催动内力发起攻击，老头更是用尽全力，冲了过来", 
+            "嘴里还喊着，“老东西，送上门来了，看爷爷怎么收拾你", 
+            "”太上老君微微一笑，挥手将老头击飞，然后把盘丝大仙重重砸在地上", 
+            "这时，机关小狗突然跳了起来，一头撞在太上老君的下巴上"
+        ], 
+        "id": 155
+    },
+    {
+        "delay_seconds": 127, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "因为这小狗既不是人也不是神仙，太上老君没有感知到它的存在，被它这一撞，分了心", 
+            "宝剑仙恰好赶到，一剑将太上老君刺穿", 
+            "太上老君低头看了看自己胸前的宝剑仙，无奈的摇了摇头，“此乃天数，失眠了几百万年，我终于可以好好睡一觉了", 
+            "”说完化作无数星光，飞散到尘世之间"
+        ], 
+        "id": 156
+    },
+    {
+        "delay_seconds": 74, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙艰难的从地上爬了起来，瞪着宝剑仙说道：“为什么你还没我快？你明明速度无敌的！”宝剑仙不好意思的说道：“这个吧，我……中途害怕了那么一秒钟"
+        ], 
+        "id": 157
+    },
+    {
+        "delay_seconds": 135, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "几人重新坐到一处，商量起对策，听说于千和文瑶去找神奇动物，老头说，“你们谁有他俩的头发什么的？”盘丝大仙不太好意思的说道：“我……这里有……文瑶的毛发", 
+            "”鲁班道人诧异的看着师祖", 
+            "盘丝大仙狠狠瞪了他一眼，“你敢告诉蜘蛛姐姐，我就永远不认你这个徒孙！”鲁班道人赶紧跪地发誓"
+        ], 
+        "id": 158
+    },
+    {
+        "delay_seconds": 129, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "拿着文瑶的头发，老头默念了几句道语，下一个瞬间，就带着于千和文瑶出现在大家面前，手里还拿着一个皮囊，里边是一捧泉水", 
+            "大家仔细观察，泉水中有这一些微小的生物在游动", 
+            "鲁班道人对自己的双眼施展法术，能够放大一千倍查看物体"
+        ], 
+        "id": 159
+    },
+    {
+        "delay_seconds": 77, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "然后，鲁班道人偷偷在拿着皮囊的文瑶耳边说道；“你手上的毛孔有点粗，最近是不是护肤品用少了", 
+            "”文瑶盯着于千说道：“还不是这个穷鬼，连买护肤品的钱都没有了"
+        ], 
+        "id": 160
+    },
+    {
+        "delay_seconds": 118, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "盘丝大仙又递给老头一些毛发，说道：“这是蜘蛛姐姐的毛发，你最好现在去看看她怎么样了？”老头接过毛发，问道：“蜘蛛姐姐的头发很短吗？”众人摇头说蜘蛛姐姐的头发又长又漂亮"
+        ], 
+        "id": 161
+    },
+    {
+        "delay_seconds": 95, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "老头拿过毛发，嗖的一下消失了", 
+            "这边三郎正在拼命的要亲蜘蛛姐姐，蜘蛛姐姐以为盘丝大仙他们还在看，只能拼命抵抗", 
+            "虽然她内心里已经不是特别抗拒这个帅气的三郎", 
+            "突然老头在旁边出现，一招就定住了三郎"
+        ], 
+        "id": 162
+    },
+    {
+        "delay_seconds": 145, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "老头滔滔不绝的把手中小生物的功效跟三郎做了个产品推介，然后当着三郎的面注入剧毒，又用功将这些小生物逼入三郎的体内，然后解除了三郎的定身", 
+            "三郎吓得跪倒在地", 
+            "老头说：“只要你保持一切正常，不要引起你那些下线的恐慌，我保你不死"
+        ], 
+        "id": 163
+    },
+    {
+        "delay_seconds": 152, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "三郎就这样毫无反抗的投降了，他一方面配合小分队逐个消灭叛徒，并把叛徒所蛊惑的仙友集合起来，一边装作什么事情都没有，照常向天庭汇报一切正常", 
+            "并且安抚其他下线不要着急动手，再多攒些人一起再说", 
+            "另外，由于性命攸关，三郎不敢撒谎，还供出了十多个跟他关系暧昧的貌美女性，气得蜘蛛姐姐代替“美艳少妇”抽了他两个耳光"
+        ], 
+        "id": 164
+    },
+    {
+        "delay_seconds": 129, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [
+          {
+            "btnText": "接受条件",
+            "nextNodeId": "166"
+          },
+          {
+            "btnText": "不接受条件",
+            "nextNodeId": "183"
+          }
+        ], 
+        "textLines": [
+            "终于，所有叛徒都被消灭，大部分仙友都集合在一起", 
+            "天庭终于发现了他们，派兵镇压，结果被众仙友打了个大败", 
+            "玉帝恐慌，派太白金星来谈和，表示今后可以自由修仙，天庭不再干涉，还拿出一半蟠桃园给众仙友，帮助众仙友加快升仙速度", 
+            "众负责人决定开会讨论一下是否接受这个条件"
+        ], 
+        "id": 165
+    },
+    {
+        "delay_seconds": 111, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "“天庭一向善变，绝对不能接受他们的条件", 
+            "”老头凭借自身的超强实力已经成为了大家的实际领袖，他的一番话得到了大家的认同，少数有反对意见的也没敢说出来", 
+            "盘丝大仙又出了假和真袭的策略，众人假装接受和谈，要先到天庭蟠桃园吃个痛快"
+        ], 
+        "id": 166
+    },
+    {
+        "delay_seconds": 69, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": true, 
+        "choices": [], 
+        "textLines": [
+            "玉帝万般无奈，答应了他们的请求，没想到这些人到了蟠桃园之后突然亮出家伙，杀了天庭一个措手不及", 
+            "玉帝和几个亲信逃到西天如来那里再也不敢出来"
+        ], 
+        "id": 167
+    },
+    {
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "老头下令打翻太上老君的炼丹炉，把整个天庭付之一炬", 
+            "从此仙界再无天庭打压，大家自由自在的修仙飞升，仙法也在大家的互相学习切磋下日新月异，一片繁荣", 
+            "于千和文瑶则回到小乡村，过起了普通百姓的生活，生了无数娃娃，倒也十分快活"
+        ], 
+        "id": 168
+    },
+     {
+        "parentId": 6,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[给你吃吧，我不用的。]",
+            "[我自己修炼就好啦。]",
+            "[两个人推了起来。]",
+            "[突然听到一声大吼，“什么人在此喧哗！”话音未落，一个身着仙袍的老道士来到近前。]",
+            "[“大胆，你们是哪里来的仙桃。”“是…是…是大仙女给的。”文瑶结结巴巴得答道。]",
+            "[次日，大仙女，文瑶、于千被逐出昆仑山。]",
+            "[不知所终。]"
+        ], 
+        "id": 169
+    },
+     {
+        "parentId": 15,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[于千把文瑶拉到石头后边，说道：“你在这里等着，不要出来，我马上去禀报掌门。”]",
+            "[说完快步向掌门的院落跑去，文瑶一把没拉住，急忙也追了过去，“别去，太危险了！”话音未落，天空降下一道闪电，二人被闪电击中，倒在地上，永远的闭上了眼睛。”]"
+        ], 
+        "id": 170
+    },
+     {
+        "parentId": 23,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[“既然有人证了，那么……都给我动手吧！”忽然之间，不知从何处无数天兵天将冲了出来，于千和文瑶也被抓了起来，过不了几日天庭降旨，几千位昆仑的囚犯全部问斩。]"
+        ], 
+        "id": 171
+    },
+     {
+        "parentId": 28,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[于千忙上前捂住欧阳正通的嘴，不想欧阳正通丝毫不念同门之谊，杀心以起，一掌拍在于千心口，这一掌用尽了全部功力，于千当场殒命。]",
+            "[欧阳正通将阵法的命门告诉大将军，昆仑派被天兵天将打败，各路道友见情况不妙也纷纷逃离。]"
+        ], 
+        "id": 172
+    },
+     {
+        "parentId": 41,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[于千站起身来，怒斥道：“王侯将相宁有种乎，你们这些天庭之人，仗着自己早得道几万年，就欺辱后辈，极尽刁难之能事，升仙之法，本是创世之初的自然法则，你们怎能随意修改！天理何……”于千还未说完，突然口吐鲜血倒在地上，原来大将军嫌他鼓噪，将他五脏六腑揉得粉碎。]",
+            "[“行啦，有话跟阎王那家伙说去吧。再见。”说罢彩云飘起，向月亮方向飞走了。]"
+        ], 
+        "id": 173
+    },
+     {
+        "parentId": 47,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[于千用已经有些生疏的法术解开了封印，看来这个封印的施法人功力并不高强，否则于千的能力是无法打开的。]",
+            "[封印刚刚解开，房门就被人一脚踹开。]",
+            "[一名天将带着几名天兵冲了进来，“哈哈，我追踪这个散仙到此，却不见了踪影，好在我感觉到这里有法术波动，果然被我抓到了。”刚刚解开封印的散仙有气无力的叹了口气，他现在法力无从施展。]",
+            "[短暂战斗之后，三人都被套仙索绑了，押上天庭。]"
+        ], 
+        "id": 174
+    },
+     {
+        "parentId": 85,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[盘古大仙一脸不高兴的站起身来，下一秒钟他已在云霄之上，竟然就这样扬长而去了。]",
+            "[于千和文瑶就在这小山村之中度过了一段和平的日子，直到有一天那些天兵天将身上的法力消失，变回了人形……]"
+        ], 
+        "id": 175
+    },
+     {
+        "parentId": 105,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[于千冲了过去，想挡住天将，却没想到蜘蛛精尚有法力，蜘蛛精等那天将近前突然放出杀招，于千正好挡在了蜘蛛精面前，一瞬间被打得元神破散，文瑶哀鸣一声，扑倒在于千身上，蜘蛛精一脸歉意的看着文瑶，那天将趁机将蜘蛛精刺死。]",
+            "[盘丝大仙大怒，却也乱了心神，被对手一击重伤，逃遁而去，不知所终，文瑶自杀身亡。]"
+        ], 
+        "id": 176
+    },
+      {
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[几个人按照镜子的指示，很快来到那美艳少妇的附近，少妇见到几人，非常惊奇。宝剑仙就向它说明了来意。]",
+            "[少妇当即表示愿意入伙。]",
+            "[当晚大家聊了很多。]",
+            "[第二天早上醒来时，宝剑仙发现镜子不见了，然后那少妇竟然带着四大金刚和杨戬以及数千天兵天将来擒拿他们。]",
+            "[经过一番战斗，几人……挂了。]"
+        ], 
+        "id": 177
+    },
+      {
+        "parentId": 110,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[文瑶把他们三个人围坐看别人换衣服的事情一五一十告诉了蜘蛛姐姐，蜘蛛姐姐看了看盘丝大仙，突然仿佛失去了所有的力量，起身离开了。]",
+            "[盘丝大仙赶紧追了出去，宝剑仙也跟着追了出去。]",
+            "[但过了很久，都没有回来。]",
+            "[于千和文瑶苦等未见他们回来，却等来了天将的大军，被关进天牢直到死亡。]"
+        ], 
+        "id": 178
+    },
+      {
+        "parentId": 121,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[于千提出此地不宜久留，众人觉得有理，便埋葬了妇人。]",
+            "[离开此地，大家继续寻找仙友组织盟军一起对抗天庭，但经过数千年的斗争，最终没有能够打败天庭，而宝剑仙、盘丝大仙也先后被天庭打败，镇压在法器之中无法脱身。]",
+            "[自此之后，修仙成为了类似科举考试的存在，在完成修行之后还要参加天庭的考察。]",
+            "[仙界彻底沦为天庭的附属。]"
+        ], 
+        "id": 179
+    },
+      {
+        "parentId": 135,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[蜘蛛姐姐稍微犹豫了一下，但此时没有“求助场外观众”的机会，只好自己做了决定。]",
+            "[“你把她们聚集到一起，我要一起看！”三郎一口答应下来，“没问题，我这就去召集。”]",
+            "[“说完以迅雷不及掩耳之势亲了蜘蛛姐姐一口，就起身离去。但是，大家等了很多很多天，都没有一点讯息，后来才得知这个人是个花花公子，跟很多修仙女子都有一腿，这次为了怕穿帮，决定舍弃蜘蛛姐姐。众人错过了一次绝佳机会，最终在延续千年的战斗中纷纷阵亡。”]"
+        ], 
+        "id": 180
+    },
+     {
+        "parentId": 147,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[于千用已经有些生疏的法术解开了封印，看来这个封印的施法人功力并不高强，否则于千的能力是无法打开的。]",
+            "[封印刚刚解开，房门就被人一脚踹开。]",
+            "[一名天将带着几名天兵冲了进来，“哈哈，我追踪这个散仙到此，却不见了踪影，好在我感觉到这里有法术波动，果然被我抓到了。”刚刚解开封印的散仙有气无力的叹了口气，他现在法力无从施展。]",
+            "[短暂战斗之后，三人都被套仙索绑了，押上天庭。]"
+        ], 
+        "id": 181
+    },
+      {
+        "parentId": 154,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[蜘蛛姐姐稍微犹豫了一下，但此时没有“求助场外观众”的机会，只好自己做了决定。]",
+            "[“你把她们聚集到一起，我要一起看！”三郎一口答应下来，“没问题，我这就去召集。”]",
+            "[“说完以迅雷不及掩耳之势亲了蜘蛛姐姐一口，就起身离去。但是，大家等了很多很多天，都没有一点讯息，后来才得知这个人是个花花公子，跟很多修仙女子都有一腿，这次为了怕穿帮，决定舍弃蜘蛛姐姐。众人错过了一次绝佳机会，最终在延续千年的战斗中纷纷阵亡。”]"
+        ], 
+        "id": 182
+    },
+      {
+        "parentId": 165,
+        "delay_seconds": 109, 
+        "segmentName": "Day 1", 
+        "isTerminalNode": false, 
+        "choices": [], 
+        "textLines": [
+            "[蜘蛛姐姐稍微犹豫了一下，但此时没有“求助场外观众”的机会，只好自己做了决定。]",
+            "[“你把她们聚集到一起，我要一起看！”三郎一口答应下来，“没问题，我这就去召集。”]",
+            "[“说完以迅雷不及掩耳之势亲了蜘蛛姐姐一口，就起身离去。但是，大家等了很多很多天，都没有一点讯息，后来才得知这个人是个花花公子，跟很多修仙女子都有一腿，这次为了怕穿帮，决定舍弃蜘蛛姐姐。众人错过了一次绝佳机会，最终在延续千年的战斗中纷纷阵亡。”]"
+        ], 
+        "id": 183
+    }
+  ]
+}
